@@ -3,7 +3,7 @@ const shortHash = require("short-hash");
 const PerfLeaderboard = require("performance-leaderboard");
 
 const NUMBER_OF_RUNS = 3;
-const FREQUENCY = 60; // in minutes
+const FREQUENCY = 60 * 24; // in minutes
 
 const prettyTime = (seconds) => {
 	// Based on https://johnresig.com/blog/javascript-pretty-date/
