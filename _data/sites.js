@@ -51,4 +51,17 @@ module.exports = {
       "https://precious-prana.com/blog/2020/04/30/decouvrez-le-bain-de-gong-pour-apprivoiser-et-apprecier-la-guerison-par-le-son/",
     ],
   },
+  cleverage: {
+    description: "clever-age.com",
+    options: {
+      freshChrome: "site",
+      frequency: 3600,
+    },
+    urls: [
+      "https://clever-age.com/",
+      "https://www.clever-age.com/fr/",
+      "https://www.clever-age.com/fr/references/diptyque-refonte-de-la-plateforme-e-commerce/",
+      "https://blog.clever-age.com/fr/2020/07/01/mdm-peut-etre-pas-si-complique-finalement/"
+    ],
+  }
 };
