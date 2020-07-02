@@ -17,7 +17,7 @@ module.exports = {
     description: "pack11ty.dev",
     options: {
       freshChrome: "site",
-      frequency: 3600,
+      frequency: 60,
     },
     urls: [
       "https://pack11ty.dev/",
@@ -28,7 +28,7 @@ module.exports = {
     description: "esviji.com",
     options: {
       freshChrome: "site",
-      frequency: 3600,
+      frequency: 60,
     },
     urls: ["https://esviji.com/", "https://play.esviji.com/"],
   },
@@ -36,7 +36,7 @@ module.exports = {
     description: "nho.io",
     options: {
       freshChrome: "site",
-      frequency: 3600,
+      frequency: 60,
     },
     urls: ["https://nho.io/"],
   },
@@ -44,7 +44,7 @@ module.exports = {
     description: "precious-prana.com",
     options: {
       freshChrome: "site",
-      frequency: 3600,
+      frequency: 60,
     },
     urls: [
       "https://precious-prana.com/",
