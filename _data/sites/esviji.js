@@ -3,7 +3,7 @@ module.exports = {
 	description: "esviji.com",
 	options: {
 		freshChrome: "site",
-		frequency: 60,
+		frequency: 60 * 24,
 	},
 	urls: ["https://esviji.com/", "https://play.esviji.com/"]
 };

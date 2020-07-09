@@ -3,7 +3,7 @@ module.exports = {
 	description: "My own short URL manager",
 	options: {
 		freshChrome: "site",
-		frequency: 60,
+		frequency: 60 * 24,
 	},
 	urls: ["https://nho.io/"]
 };

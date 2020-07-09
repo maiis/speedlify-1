@@ -3,7 +3,7 @@ module.exports = {
   description: "precious-prana.com",
   options: {
     freshChrome: "site",
-    frequency: 60,
+    frequency: 60 * 24,
   },
   urls: [
     "https://precious-prana.com/",

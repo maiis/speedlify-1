@@ -3,7 +3,7 @@ module.exports = {
 	description: "pack11ty.dev",
 	options: {
 		freshChrome: "site",
-		frequency: 60,
+		frequency: 60 * 24,
 	},
 	urls: [
 		"https://pack11ty.dev/",
