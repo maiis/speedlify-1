@@ -1,5 +1,5 @@
 module.exports = {
-	name: "nicolas-hoizey.com", // optional, falls back to object key
+	name: "nicolas-hoizey.com",
 	description: "My personal website",
 	options: {
 		freshChrome: "site",
