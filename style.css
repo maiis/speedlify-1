@@ -89,6 +89,9 @@ abbr {
 	max-width: 40em;
 	text-align: center;
 }
+.speedlify-subhed ~ .speedlify-subhed {
+	margin-top: 1em;
+}
 
 
 /* Leaderboard */
@@ -250,6 +253,7 @@ abbr {
 	}
 }
 
+.small,
 .count,
 .date,
 .heart-hundo {
@@ -282,6 +286,26 @@ abbr {
 	.js .layout {
 		grid-template-columns: repeat(auto-fill, 49%);
 	}
+}
+
+/* File sizes */
+/*.filesize {}*/
+.filesize-label-lg {
+	display: none;
+}
+
+@media (min-width: 31.25em) { /* 500px */
+	.filesize-label-sm {
+		display: none;
+	}
+	.filesize-label-lg {
+		display: inline;
+	}
+}
+[data-numeric-value="0"] .filesize-label-sm,
+[data-numeric-value="0"] .filesize-label-lg,
+[data-numeric-value="0"] .count {
+	display: none;
 }
 
 /* Charts */
@@ -361,3 +385,4 @@ abbr {
 .ct-series-f.ct-series-f .ct-line {
 	stroke: var(--speedlify-color-6);
 }
+
