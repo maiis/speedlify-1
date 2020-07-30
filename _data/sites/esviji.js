@@ -4,5 +4,5 @@ module.exports = {
 	options: {
 		freshChrome: "site"
 	},
-	urls: ["https://esviji.com/", "https://play.esviji.com/"]
+	urls: ["https://play.esviji.com/"]
 };
