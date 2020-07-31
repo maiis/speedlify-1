@@ -1,6 +1,7 @@
 module.exports = {
 	name: "Pack11ty",
 	description: "pack11ty.dev",
+	skip: false,
 	options: {
 		freshChrome: "site"
 	},

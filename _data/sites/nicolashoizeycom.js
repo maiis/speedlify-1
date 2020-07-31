@@ -1,6 +1,7 @@
 module.exports = {
 	name: "nicolas-hoizey.com",
 	description: "My personal website",
+	skip: false,
 	options: {
 		freshChrome: "site"
 	},

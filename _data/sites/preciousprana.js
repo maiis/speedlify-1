@@ -1,6 +1,7 @@
 module.exports = {
   name: "Precious Prana",
   description: "precious-prana.com",
+	skip: false,
   options: {
     freshChrome: "site"
   },
