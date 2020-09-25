@@ -3,6 +3,7 @@ module.exports = {
 	description: "pack11ty.dev",
 	skip: false,
 	options: {
+		frequency: 10 // can run every 10 minutes
 		freshChrome: "site"
 	},
 	urls: [
