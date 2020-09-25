@@ -3,7 +3,7 @@ module.exports = {
   description: "precious-prana.com",
 	skip: false,
   options: {
-		frequency: 60 * 24 * 7 // runs once a week
+		frequency: 60 * 24 * 7, // runs once a week
     freshChrome: "site"
   },
   urls: [
